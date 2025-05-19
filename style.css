@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
   --botao-azul: #167BF7;
   --cor-de-fundo: #00030C;
+  --fonte-principal: 'inter;' 
 }
 
 body {
   background-color: var(--cor-de-fundo);
   color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 *{
@@ -15,12 +21,16 @@ body {
   padding: 0;
 }
 
-.principal{}
+.principal{
+  background-image:url("./imagens/Background.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .container {
-  heigth: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template-colums: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 .container_botao{
@@ -31,3 +41,15 @@ body {
   display: block;
   text-decoration: none;
 }
+
+.botao_secundario{
+  background-color: transparent;
+  border: 2px solid var(--branco-principal)
+}
+
+.container_aviso{
+  font-size: 28px;
+  color: var(--cinza-secundario);
+}
+
+  .container_titulo{}

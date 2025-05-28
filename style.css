@@ -83,6 +83,7 @@ body {
   font-size: 48px;
   color: var(--branco-principal);
   margin-bottom: 0.1em;
+  align-items: 48px;
 }
 
 .descricao_texto{

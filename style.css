@@ -22,7 +22,7 @@ body {
 }
 
 .principal{
-  background-image: url("./imagem/Background.png");
+  background-image: url("./imagens/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
   align-items: center;
@@ -95,4 +95,37 @@ body {
 
 .container_descricao{
   padding: 2em;
+}
+
+.dispositivo{
+  text-align: center;
+}
+
+.dispositivos_lista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos_titulo{
+  font-size: 48px;
+  color: var(--branco-principal);
+}
+
+.lista_item{
+  font-size: 32px;
+  color: var(--branco-principal);
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape_lista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
 }
